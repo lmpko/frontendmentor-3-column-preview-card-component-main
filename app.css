@@ -10,3 +10,16 @@ font-family: 'Lexend Deca', sans-serif; */
     --fifthary-color: hsl(0, 0%, 95%);
 
 }
+
+body{
+    margin: 0;
+    background-color: var(--fifthary-color);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    
+}
