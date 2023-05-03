@@ -18,8 +18,99 @@ body{
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 main{
-    
+    margin: 2.5rem 0.938rem;
+    border-radius: 0.938rem;
+    width: 19.688rem;
+}
+
+section{
+    padding: 2.5rem;
+}
+
+section h1{
+    font-weight: 700;
+    color: var(--fifthary-color);
+    text-transform: uppercase;
+}
+
+section p{
+    font-size: 0.938rem;
+    color: var(--fouthary-color);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+section:nth-child(1){
+    background-color: var(--primary-color);
+    border-radius: 0.938rem 0.938rem 0 0;
+}
+
+section:nth-child(2){
+    background-color: var(--secondary-color);
+}
+
+section:nth-child(3){
+    background-color: var(--tertiary-color);
+    border-radius: 0 0 0.938rem 0.938rem ;
+}
+
+button{
+    padding: 0.938rem 1.563rem;
+    background-color: var(--fifthary-color);
+    border-radius: 3.125rem;
+    border: 2px solid var(--fifthary-color);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover, button:focus{
+    background-color: rgba(0, 255, 255, 0);
+}
+
+section:nth-child(1) button{
+    color: var(--primary-color);
+}
+
+section:nth-child(2) button{
+    color: var(--secondary-color);
+}
+
+section:nth-child(3) button{
+    color: var(--tertiary-color);
+}
+
+section:nth-child(1) button:hover, section:nth-child(1) button:focus{
+    color: var(--fifthary-color);
+}
+
+section:nth-child(2) button:hover, section:nth-child(2) button:focus{
+    color: var(--fifthary-color);
+}
+
+section:nth-child(3) button:hover, section:nth-child(3) button:focus{
+    color: var(--fifthary-color);
+}
+
+@media (min-width: 720px){
+    main{
+        display: flex;
+        flex-direction: row;
+        width: 53.688rem;
+    }
+
+    section:nth-child(1){
+        border-radius: 0.938rem 0 0 0.938rem ;
+    }
+
+    section:nth-child(3){
+        border-radius: 0 0.938rem 0.938rem 0;
+    }
+
+    button{
+        margin-top: 4.375rem;
+    }
 }
