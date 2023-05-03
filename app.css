@@ -1,0 +1,12 @@
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+
+:root{
+    --primary-color: hsl(31, 77%, 52%);
+    --secondary-color: hsl(184, 100%, 22%);
+    --tertiary-color: hsl(179, 100%, 13%);
+
+    --fouthary-color: hsla(0, 0%, 100%, 0.75);
+    --fifthary-color: hsl(0, 0%, 95%);
+
+}
